@@ -2,6 +2,7 @@ In  the  project  “SNAKES AND LADDERS ”,   the project is programmed using C
 In this game there will be two players .Only two users can compete with each other at a time. Used Turbo C++ compiler tool.
 
 **#_______ABOUT THE PROJECT_______
+
 #1.  Overview:**
 
 Our game is a simple snake and ladder game. Users can toss the die one after another successive positions. If a player gets a 6 on die he can play once again.  The coins will be moved on the board according to the number obtained on the die. The player who first reaches 100th  position will win the match.
