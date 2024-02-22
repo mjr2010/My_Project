@@ -1,13 +1,21 @@
-The project introduces a broad and general optimization framework on Home Energy Management 
-System (HEMS). The twenty-first century is now an age in which everything operates primarily 
-on electricity. In recent pandemic circumstances, the routine saw higher electricity consumption. 
-A predictive model sets out the steps to keep track of whether excess electricity is being used. The 
-Home Energy Management System is used to estimate the power consumption of the home at the 
-device level. Within the web application, users can find predicted data. For this a unique key 
-generated for login credentials which give login access requests. In different stages of 
-preprocessing data, all backend processing will be performed by splitting into training with the
-existing dataset. Further, the testing with real-time data is integrated with an algorithm (RNNLSTM) which would provide estimated results that suit for better understanding in the analysis of 
-graphs and table values. With a smaller degree of granularity for the household level, all the 
-predicted values will be more effective, because more integrated data would be handled and the 
-predicted values would be much better. The LSTM algorithm has been used for data size 
-processing since initially, data will be a weekly and monthly record
+**Home Energy Management System (HEMS)**
+This project introduces a comprehensive and adaptable optimization framework for Home Energy Management Systems (HEMS). In today's world, electricity plays a vital role in powering our daily lives. Recent events, such as the pandemic, have further highlighted the importance of efficient energy use in homes.
+
+The project aims to develop a predictive model to track and identify potential energy wastage. By estimating power consumption at the device level, HEMS helps users understand their energy usage patterns. A web application provides access to predicted data and user authentication through unique login credentials.
+
+**Methodology**
+We leverage Recurrent Neural Networks (RNNs) with Long Short-Term Memory (LSTM) units to process sequential data effectively. The framework utilizes real-time and historical data for training and testing, respectively. Preprocessing stages split and prepare data for efficient model training. Predicted values are presented in graphs and tables within the web application for insightful analysis. Focus on smaller granularities allows for more accurate predictions by handling a wider range of data points.
+
+**Repository Structure**
+'HEMS_proj/': Contains code for application training & testing
+
+**Acknowledgment**
+Team Contribution:
+Shriti Salvi, Team Member
+Arvinda Tandel, Team Member
+
+Professor Guidance:
+Sulochana Madachane
+Pragati Chandankhede
+
+
